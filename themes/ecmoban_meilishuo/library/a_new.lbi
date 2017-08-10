@@ -1,0 +1,28 @@
+﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+ <ul>
+        
+        
+        
+        
+       <!--{foreach from=$cat_id_goods_list_684 item=goods}-->
+        
+        <li><a href="{$goods.url}" target="_blank">
+
+<img src="{$goods.thumb}"  alt="{$goods.name|escape:html}"   
+width="265" height="270" />
+
+</a>	
+		<font >奖金：<s style="text-decoration:none;">{$goods.market_price}</s></font>
+          <p>{$goods.name|truncate:30}<!--<img src="images/hb.gif" width="23" height="30" />--></p>
+          <span>已抢<b>{$goods.count}/{$goods.brief}</b>件</span><strong> <!-- {if $goods.promote_price neq ""} -->
+       {$goods.shop_price}
+          
+         
+          <!--{/if}--></strong>
+ 
+</li>
+           <!--{/foreach}-->
+          
+        <div style="clear:both;"></div>
+      </ul>

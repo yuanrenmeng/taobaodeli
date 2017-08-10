@@ -1,0 +1,42 @@
+﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<ul id="jcpbg">
+ 
+ <!--{foreach from=$cat_id_goods_list_688 item=goods}-->
+            <li>
+            
+            <a href="{$goods.url}" target="_blank">
+<img src="{$goods.thumb}"  alt="{$goods.name|escape:html}"  
+width="256" height="256" />
+
+
+</a><a href="{$goods.url}" class="qg_bt" target="_blank">抢购&nbsp;&nbsp;<font style="color:#FFF721;">奖金:{$goods.market_price}</font></a>
+              <p>{$goods.name|truncate:30}<!--<img src="images/hb.gif" width="23" height="30" />-->&nbsp;<img src="images/jiang.gif"  /></p>
+              <span>已抢<strong>{$goods.count}/{$goods.brief}</strong>份</span>
+              <b>
+              
+          {$goods.shop_price}
+          
+         
+          </b>
+               
+              </li> 
+       <!--{/foreach}-->
+ </ul>
+
+
+<script type="text/javascript">
+        
+        var nav = document.getElementById("jcpbg");//指定id元素
+        var b = nav.getElementsByTagName("strong");//获得所有li(数组)
+		var li = nav.getElementsByTagName("li");
+        for (var i = 0; i < b.length; i++) {
+            var str = b[i].innerHTML;//获得li中href
+			var ar=str.split('/');
+            if (parseInt(ar[0]) == parseInt(ar[1])){//为当前地址则增加li属性
+			
+                li[i].className="libg";
+				
+                }
+        }  
+        </script>

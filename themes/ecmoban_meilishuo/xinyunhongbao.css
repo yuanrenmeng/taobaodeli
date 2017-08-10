@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+.ad {
+	width: 1200px;
+	margin:0 auto;
+}
+.ad img{width:1200px; height:291px;}
+/* 本例子css */
+.slideTxtBox1{
+	width: 1200px;
+	
+}
+		.slideTxtBox1 ul{ list-style:none;}
+		.slideTxtBox1 .hd_tt{
+	height: 40px;
+	line-height: 35px;
+	background: #ccc9c9;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	width: 1200px;
+}
+		.slideTxtBox1 .hd_tt ul{
+	float: left;
+	
+	top: -1px;
+	
+	text-align: center;
+}
+
+.slideTxtBox1 .hd_tt ul li{
+	float: left;
+	cursor: pointer;
+	line-height: 40px;	
+}
+
+.slideTxtBox1 .hd_tt ul li a{
+	height: 40px;
+	color: #000;
+	text-decoration: none;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-top: 8px;
+}
+.slideTxtBox1 .hd_tt ul li a:hover{ background:#f15703; color:#FFF;}
+		.slideTxtBox1 .hd_tt ul li.on{ height:40px;  border:1px solid #ddd; border-bottom:2px solid #fff; color:#FFF; }
+		
+		.slideTxtBox1 .ls_xyhb li{
+	line-height: 24px;
+	border: 1px solid #c7c8d4;
+	width: 289px;
+	height:421px;
+	margin-top: 15px;
+	float: left;
+	margin-right: 11px;
+	display: inline;
+	color: #000000;
+	font-family: "微软雅黑";
+	position:relative;
+}
+.AreaR .slideTxtBox1 .ls_xyhb ul li .shangmian {
+	width: 254px;
+	padding-top: 18px;
+	padding-right: 18px;
+	padding-left: 18px;
+	height:343px;
+}
+
+.AreaR .slideTxtBox1 .ls_xyhb ul li .shangmian p img {
+	vertical-align:-10px;
+}
+
+.slideTxtBox1 .ls_xyhb li img{ z-index:-1;}
+.slideTxtBox1 .ls_xyhb li .g_bt:hover{background-color: #fe8949;}
+
+.slideTxtBox1 .ls_xyhb li .g_bt{
+	text-decoration: none;
+	background-color: #f15703;
+	color: #FFF;
+	text-align:center;
+	line-height:30px;
+	position:absolute;
+	border-radius: 10px;
+	height:30px;
+	font-size:15px;
+	padding-left:5px;
+	padding-right:5px;
+	float:left;
+	z-index:1;
+	margin:180px 0 0 80px;
+}
+
+
+.AreaR .slideTxtBox1 .ls_xyhb ul li .dibu {
+	background-color: #383838;
+	color: #f15703;
+	height: 50px;
+	padding-top: 10px;
+}
+.AreaR .slideTxtBox1 .ls_xyhb ul li .dibu s {
+	color: #c4c6cf;
+} 
+.AreaR .slideTxtBox1 .ls_xyhb ul li .dibu span{
+	float: right;
+	margin-right: 10px;
+	color: #c4c6cf;
+	margin-top: 5px;
+}
+.AreaR .slideTxtBox1 .ls_xyhb ul li .dibu span b {
+	color: #078c55;
+}
+
+
+.AreaR .slideTxtBox1 .ls_xyhb ul li .dibu strong {
+	font-size: 36px;
+	color: #f15703;
+}
+
+.slideTxtBox1 .ls_xyhb ul li:hover .shangmian{
+	background-color: #f15703;
+	color:#FFF;
+}
+
+
+

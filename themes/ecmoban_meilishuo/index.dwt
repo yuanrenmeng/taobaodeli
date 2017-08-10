@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="{$keywords}" />
+<meta name="Description" content="{$description}" />
+<meta name="baidu-site-verification" content="HJgRI5jyZj" />
+<meta name="360-site-verification"content="b64ea8121b75b1df776a7adfba2027a1" />
+<meta name=”renderer” content=”webkit|ie-comp|ie-stand”>
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>{$page_title}</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+
+<link href="themes/ecmoban_meilishuo/show_activity.css" rel="stylesheet" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="RSS|{$page_title}" href="{$feed_url}" />
+
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+{* 包含脚本文件 *}
+{insert_scripts files='common.js,index.js,js.js,jquery.SuperSlide.2.1.1.js'}
+ <script type="text/javascript">
+/*$(document).ready(function(){
+ $(".ad1").show(1000);
+ 
+  $(".guangbi").click(function(){
+  $(".ad1").hide(1000);
+  });
+});*/
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?04eb71b44a571b9ac9d46e24f942fc27";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+</head>
+
+<body class="index_page" style="min-width:1200px;">
+<div class="top1">
+<!--弹出广告-->
+  <div class="ad1" style="display:none;"><a  class="guangbi" ><img src="images/guangbi.png" width="43" height="46" /></a>
+    <h3><a href="/article.php?id=10" target="_blank">买家规则</a> <a href="/article.php?id=24" target="_blank">平台介绍</a> <a href="/article.php?id=9" target="_blank">得利流程</a></h3>
+
+    <div style="height:30px; margin-top:54px;"> <a href="#">特惠馆</a></div>
+    <div style="height:30px;margin-top:83px;"> <a href="#">一折到底</a></div>
+    <div style="height:80px;margin-top:70px;"> <a href="#">奖彩品</a></div>
+    </div>
+
+</div>
+<a name="top" id="top"></a>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+<div class="blank"></div>
+<div class="middle"> 
+  
+  <!--客服 -->
+  <div class="fenlei_nav ">
+   <!-- #BeginLibraryItem "/library/category_tree_index.lbi" --><!-- #EndLibraryItem -->
+  </div>
+  <!--幻灯-->
+  <div class="ad">
+    <div class="area">
+      <!-- #BeginLibraryItem "/library/index_ad.lbi" --><!-- #EndLibraryItem -->
+    </div>
+  </div>
+  <!--登录注册-->
+  <div class="right">
+    <div class="login">
+      <h3>Hi，您好，欢迎来到淘宝得利！</h3>
+{* ECSHOP 提醒您：根据用户id来调用member_info.lbi显示不同的界面  *}{insert name='member_info'}
+
+       </div>
+    <div class="gg">
+      <h3>公告</h3>
+      <p>
+      {insert name='shop_notice'}
+      <p> 
+    </div>
+    <a href="http://taobaodeliseller.com/" target="_blank"><img src="images/rk.gif" width="264" height="99" /></a> </div>
+</div>
+
+
+<!--main开始-->
+<div class="main"> 
+  
+  <!--站内资讯、奖彩品、抢购达人、省钱达人-->
+  
+  <div class="right">
+    <!-- TemplateBeginEditable name="站内快讯" -->
+<!-- #BeginLibraryItem "/library/new_articles.lbi" -->
+
+
+
+
+<div class="new">
+      <h3>站内资讯</h3>
+      <ul>
+      <!--{foreach from=$new_articles item=article}-->
+        <li>
+      <a href="{$article.url}" title="{$article.title|escape:html}">{$article.short_title|truncate:20:"...":true}</a>
+        </li>
+         <!--{/foreach}-->
+      </ul>
+    </div>
+ <!-- #EndLibraryItem -->
+ 
+ <!-- #BeginLibraryItem "/library/jcp.lbi" -->
+
+
+
+
+<div class="new">
+      <h3>站内资讯</h3>
+      <ul>
+      <!--{foreach from=$new_articles item=article}-->
+        <li>
+      <a href="{$article.url}" title="{$article.title|escape:html}">{$article.short_title|truncate:20:"...":true}</a>
+        </li>
+         <!--{/foreach}-->
+      </ul>
+    </div>
+ <!-- #EndLibraryItem -->
+ <!-- #BeginLibraryItem "/library/a_sq.lbi" -->
+
+
+
+
+<div class="new">
+      <h3>站内资讯</h3>
+      <ul>
+      <!--{foreach from=$new_articles item=article}-->
+        <li>
+      <a href="{$article.url}" title="{$article.title|escape:html}">{$article.short_title|truncate:20:"...":true}</a>
+        </li>
+         <!--{/foreach}-->
+      </ul>
+    </div>
+ <!-- #EndLibraryItem -->
+ 
+<!-- TemplateEndEditable -->
+
+
+    <!--文字滚动结束--> 
+    
+    
+   
+    
+  </div>
+  
+  <!--一折到底-->
+  <div class="left">
+    <div class="container">
+      <ul class="mtab">
+        <li class="current"><a href="javascript:void();">优品汇</a></li>
+        
+        <li><a href="javascript:void();">特惠馆</a></li>
+	<li><a href="javascript:void();">奖彩品</a></li>
+      </ul>
+      <div class="cmenu">
+        <div class="fb">
+		<!-- TemplateBeginEditable name="一折到底"改为“优品汇” -->
+        <!-- #BeginLibraryItem "/library/aaa.lbi" -->
+		<!-- #EndLibraryItem -->
+<!-- TemplateEndEditable -->
+          
+        </div>
+
+
+        <!--一折到底结束--> 
+        
+        
+        <div class="fn">
+		<!-- TemplateBeginEditable name="幸运红包" -->
+		<!-- #BeginLibraryItem "/library/a_xyhb.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+		
+		<!-- TemplateEndEditable -->
+          
+        </div>
+
+<!--奖彩品开始-->
+        <div class="fn">
+		<!-- TemplateBeginEditable name="奖彩品" -->
+<!-- #BeginLibraryItem "/library/a_jcp.lbi" -->
+		<!-- #EndLibraryItem -->
+<!-- TemplateEndEditable -->
+        
+         
+        </div>
+      </div>
+      
+    </div>
+    <script type="text/javascript">
+  $(function(){
+     $(".mtab").find('li').click(function(){
+         var obj = $(this).parent().nextAll();
+         var index = $(this).index();
+         $(this).addClass('current').siblings().removeClass('current');
+         obj.find('div').eq(index).css('display','block').siblings().css('display','none');
+                      
+     }) 
+  })
+</script> 
+  </div>
+  <div style="clear:both;"></div>
+</div>
+<!--main结束--> 
+<!-- TemplateBeginEditable name="新品上广告" -->
+<!-- #BeginLibraryItem "/library/a_newad.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+
+<!-- TemplateEndEditable -->
+
+<!--最新上线、新品预告-->
+<div class="main2">
+  <div class="slideTxtBox2">
+    <div class="hd">
+      <ul>
+        <li><a href="../search.php?intro=new">今日最新上线</a></li>
+         <li><a href="category.php?id=684">新品预告</a></li>
+
+      </ul>
+    </div>
+    <div class="bd" >
+	
+	<!-- TemplateBeginEditable name="最新和预告" -->
+	<!-- #BeginLibraryItem "/library/recommend_new.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/library/a_new.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+	<!-- TemplateEndEditable -->
+      
+      
+      
+    </div>
+  </div>
+  <script>
+jQuery(".slideTxtBox2").slide({effect:"fold",autoPlay:true,easing:"easeOutCirc",delayTime:200});
+</script> 
+</div>
+<!--最新上线新品预告结束--> 
+
+<div class="blank"></div>
+<!-- TemplateBeginEditable name="楼层上广告" -->
+<!-- #BeginLibraryItem "/library/a_lcad.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+        
+    
+
+<!-- TemplateEndEditable -->
+
+
+<!--楼层开始-->
+<div class="lc">
+  <div class="slideTxtBox3">
+    <div class="hd">
+     <!-- TemplateBeginEditable name="楼层分类" -->
+<!-- #BeginLibraryItem "/library/a_lctt.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+        
+    
+
+<!-- TemplateEndEditable -->
+    </div>
+    <div class="bd">
+      <!-- TemplateBeginEditable name="楼层分类" -->
+<!-- #BeginLibraryItem "/library/a_lctwo.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+  <!-- #BeginLibraryItem "/library/a_lcnz.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+  <!-- #BeginLibraryItem "/library/a_lcthree.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+    <!-- #BeginLibraryItem "/library/a_lcfour.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+ <!-- #BeginLibraryItem "/library/a_lcfive.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+  <!-- #BeginLibraryItem "/library/a_lcsix.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+ <!-- #BeginLibraryItem "/library/a_lcseven.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+  <!-- #BeginLibraryItem "/library/a_lceight.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+  <!-- #BeginLibraryItem "/library/a_lcnine.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+<!-- TemplateEndEditable -->
+      
+      
+     
+     
+     
+     
+    </div>
+  </div>
+  <script>
+jQuery(".slideTxtBox3").slide({effect:"fold",autoPlay:true,easing:"easeOutCirc",delayTime:200,interTime:8000});
+</script> 
+</div>
+
+<!--楼层结束-->
+
+<!-- TemplateBeginEditable name="楼层最底部" -->
+<!-- #BeginLibraryItem "/library/a_yzad.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+        
+    
+
+<!-- TemplateEndEditable -->
+
+
+<!-- #BeginLibraryItem "/library/a_yzseller.lbi" -->
+		
+		<!-- #EndLibraryItem -->
+
+
+
+  <!--right end-->
+  
+  
+ 
+
+
+   
+ <div class="return-top"><a href="#top" target="_self" ><img src="images/return-top.png" width="56" height="55" /></a></div>
+
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+
+</body>
+</html>

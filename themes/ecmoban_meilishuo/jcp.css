@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.slideTxtBox1 .ls_jcp li {
+	line-height: 24px;
+	border: 1px solid #f5f5f5;
+	width: 280px;
+	height:418px;
+	padding-bottom: 10px;
+	margin-top: 15px;
+	float: left;
+	margin-right: 23px;
+	display: inline;
+	color:#e70b0b;
+	font-family: "微软雅黑";
+}
+
+.slideTxtBox1 .ls_jcp li img{  z-index:}
+
+.AreaR .slideTxtBox1 .ls_jcp ul li .g_bt {
+	
+	color: #FFF;
+	text-decoration: none;
+	background-color: #f15703;
+	position:absolute;
+	margin:-100px 0 0 60px;
+	padding:10px 10px 10px 10px;
+}
+.AreaR .slideTxtBox1 .ls_jcp ul li .g_bt:hover{ background-color:#fb7e39;}
+.AreaR .slideTxtBox1 .ls_jcp ul li p {
+	font-size: 14px;
+	color: #0e0e0f;
+	padding-bottom: 10px;
+}
+.AreaR .slideTxtBox1 .ls_jcp ul li p img{ margin:0 5px 0 5px;vertical-align:-8px;}
+.AreaR .slideTxtBox1 .ls_jcp ul li span {
+	margin:10px 20px 0 0;
+	color: #cccdcf;
+	float:right;
+}
+.AreaR .slideTxtBox1 .ls_jcp ul li span b{ color:#f15703;}
+.AreaR .slideTxtBox1 .ls_jcp ul li div .g_bt:hover {
+	background-color: #f28347;
+}
+.AreaR .slideTxtBox1 .ls_jcp ul li strong {
+	font-size: 36px;
+	color: #e70b0b;
+	font-family: "微软雅黑";
+}
+.AreaR .slideTxtBox1 .ls_jcp ul li s{ color:#b9bbbe;}
+.slideTxtBox1 .ls_jcp ul li:hover {
+	border: 1px solid #f15703;
+}

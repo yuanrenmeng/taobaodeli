@@ -1,0 +1,30 @@
+﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!-- {if $best_goods} -->
+<!-- {if $cat_rec_sign neq 1} -->
+<h3>特别推荐</h3>
+<!-- {/if} -->
+      <div class="right_1" id="right_1">
+        <ul>
+        <!--{foreach from=$best_goods item=goods}-->
+          <li>
+<a href="{$goods.url}"><img src="{$goods.thumb}" alt="{$goods.name|escape:html}" width="221" height="219" /></a>
+
+            <p> {$goods.name}</p>
+            <div class="fs_rg" style="display:none">已抢<b>{$goods.count}/{$goods.brief}</b>份</div>
+			<span><!-- {if $goods.promote_price neq ""} -->
+        <b>  {$goods.promote_price}</b>
+         
+         
+          <!--{/if}--></span>
+
+
+	
+          </li>
+          <!--{/foreach}-->
+        </ul>
+      </div>
+ <!-- {/if} -->
+
+
+

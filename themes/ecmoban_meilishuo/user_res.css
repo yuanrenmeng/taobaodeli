@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.user_res {
+	width: 975px;
+	background-color: #FFF;
+	border: 1px solid #c9c5c5;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-bottom: 100px;
+}
+.user_res .right {
+	float: left;
+	margin-top: 140px;
+	text-align: center;
+}
+.user_res .right p {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #a6a5a5;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.user_res .right .reg_bt {
+	background-color: #F15703;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-decoration: none;
+	line-height: 50px;
+	color: #FFF;
+	border-radius: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: "微软雅黑";
+	}
+	.user_res .right .reg_bt:hover{
+	background-color: #FF6600;
+}
+.user_res .right a img {
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.user_res .right a img:hover{
+	 opacity:0.4;
+    filter:alpha(opacity=40);}
+
+
+.user_res .left {
+	float: left;
+	margin-left: 138px;
+	margin-top: 67px;
+	width: 470px;
+}
+.user_res .left h2 {
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #a6a5a5;
+	text-align: center;
+	font-weight: normal;
+	margin-left: -15px;
+}
+.user_res .left form table {
+	width: 470px;
+	border: 0;
+	margin-top: 40px;
+}
+
+.user_res .left table tr .td1 {
+	text-align: right;
+	width: 100px;
+	height: 60px;
+	font-family: "宋体";
+	font-size: 14px;
+	color: #8b8b8b;
+}
+.user_res .left form table tr .td2 {
+	text-align: left;
+	width: 290px;
+	font-family: "微软雅黑";
+	color: #a6a5a5;
+	font-size: 12px;
+}
+.user_res .left form table tr .td2 #username ,#password1 ,#email,#conform_password{
+	height: 30px;
+	width: 230px;
+	border:1px solid #B9B9B6;
+	margin-left:30px;
+}
+
+.user_res .left form table tr .td2 #checkbox2 {
+	margin-left: 25px;
+}
+.user_res .left form table tr .td2 a {
+	text-decoration: none;
+	color: #a6a5a5;
+	
+}
+.user_res .left form table tr .td2 a:hover{ color:#F33;}
+
+
+
+
+.user_res .left form table tr .td2 .login_bt {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #f15703;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 35px;
+	padding-left: 35px;
+	border-radius: 10px;
+	float: left;
+	margin-left: 100px;
+	font-size: 18px;
+}
+.user_res .left form table tr .td2 .login_bt:hover{
+	background-color: #FF6600;
+	color: #FFF;
+}
+.user_res .left form table tr .td2 span {
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+.user_res .left form table tr .td2 span a {
+	font-size: 12px;
+	color: #a6a5a5;
+	text-decoration: none;
+}
+.user_res .left form table tr .td2 span a:hover{ text-decoration:underline;}
+
+

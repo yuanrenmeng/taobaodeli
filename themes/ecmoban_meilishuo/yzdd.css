@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.slideTxtBox1 .ls_yzdd li {
+	width: 254px;
+	height:402px;
+	padding:18px 18px 10px 18px;
+    border: 1px solid #f5f5f5;
+	line-height: 24px;
+	margin-top: 15px;
+	margin-right: 11px;
+	float: left;
+	display: inline;
+	color: #f15703;
+	font-family: "微软雅黑";
+}
+.AreaR .slideTxtBox1 .ls_yzdd ul li p {
+	font-size: 14px;
+	color: #0e0e0f;
+	padding-bottom: 10px;
+}
+.AreaR .slideTxtBox1 .ls_yzdd ul li p img {
+	vertical-align:-10px;
+}
+.AreaR .slideTxtBox1 .ls_yzdd ul li div {
+	color: #c4c6cf;
+	float:right;
+}
+.AreaR .slideTxtBox1 .ls_yzdd ul li div span {
+	color: #078c55;
+}
+.AreaR .slideTxtBox1 .ls_yzdd ul li div .g_bt {
+    position:absolute;
+	margin:-180px 0  0 -140px;
+	padding:5px 25px;
+	text-decoration: none;
+	color: #FFF;
+	background-color: #f15703;
+	border-radius: 10px;
+	}
+.AreaR .slideTxtBox1 .ls_yzdd ul li div .g_bt:hover {
+	background-color: #f28347;
+}
+.AreaR .slideTxtBox1 .ls_yzdd ul li strong {
+	font-size: 36px;
+	color: #f15703;
+	font-family: "微软雅黑";
+}
+.slideTxtBox1 .ls_yzdd ul li:hover {
+	border: 1px solid #f15703;
+}

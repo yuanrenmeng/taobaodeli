@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.ad1{
+	margin-top:110px;
+	left:45%;
+	width: 686px;
+	height: 571px;
+	background: url(images/ad.png) 0px -10px;
+	background-repeat: no-repeat;
+	text-align: center;
+	position:fixed;
+	z-index:999;
+	margin-left: -200px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	display:none;
+	
+	
+	
+}
+
+.ad1 .guangbi{
+	float: right;
+	margin: 0 100px 0 0;
+	
+	
+}
+
+.top1 .ad1 a {
+	color: #085285;
+	text-decoration:none;
+}
+.top1 .ad1 a:hover {color: #FFF; }
+
+.ad1 h3{
+	text-align: center;
+	margin-top: 100px;
+	color: #FFF;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-weight: normal;
+}
+.top1 .ad1 h3 a {
+	color: #ea0000;
+	margin-right: 20px;
+}
+
+.top1 .ad1 div a{color:#FFF;}

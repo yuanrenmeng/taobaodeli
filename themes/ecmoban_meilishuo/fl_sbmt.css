@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+.flcj {
+	width: 1072px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	
+	background-repeat: no-repeat;
+	height: 600px;
+}
+.flcj .biaodan{
+}
+.flcj .biaodan p {
+	text-align: center;
+	color: #03708f;
+	font-family: "微软雅黑";
+	letter-spacing:5px;
+}
+.flcj .biaodan table {
+	width: 330px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.flcj .biaodan form table tr .td1 {
+	width: 160px;
+	text-align: center;
+	font-family: "微软雅黑";
+	height: 60px;
+	letter-spacing: 5px;
+}
+.flcj .biaodan form table tr .td2 {
+	text-align: center;
+}
+
+.flcj .biaodan form table tr .td2 input {
+	height: 25px;
+	width: 160px;
+	border: 1px solid #e73a23;
+}
+.flcj .biaodan form table tr .td2 .tijiao_bt {
+	background-color: #e73a23;
+	color: #FFF;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	border-radius: 10px;
+	padding-top: 3px;
+	padding-right: 20px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+}
+
+.flcj .biaodan form table tr .td2 .tijiao_bt:hover{ background-color:#fe762d;}
+.flcj .choujiang {
+	margin-top: 30px;
+	width: 637px;
+	height:150px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.flcj .choujiang ul{ list-style:none; }
+
+.flcj .choujiang ul li{
+	float: left;
+	text-align: right;
+	margin-left: 110px;
+	margin-right: 80px;
+	display:inline;
+}
+.flcj .choujiang ul li img:hover{ cursor:pointer;}
+.flcj .choujiang ul li p {
+	color: #fdff03;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 35px;
+}
+
+.flcj .choujiang ul li p a{color: #E50A13; text-decoration:none;}
+
+
+
+
+.flcj .choujiang ul .hongbao,.flcj .choujiang ul .jiangpin{
+	color: #fdff03;
+	float: left;
+	text-align: right;
+	margin: 0 70px 0 30px;
+	display: inline;
+	border: 1px solid #fdff03;
+	height: 60px;
+	width: 210px;
+	text-align: center;
+	line-height: 50px;
+	font-family: "微软雅黑";
+	background-color: #F00;
+	font-size:18px;
+}
+.flcj  .bt { height:50px ; width:150px ; margin:0 auto;}
+.flcj  .bt a {
+	color: #f2ea07;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	background-color: #fb3d00;
+	padding:10px 30px 10px 30px;
+	border:1px solid #fdff03;
+	
+}
+.flcj .bt a:hover{ background-color: #f75828;}
+

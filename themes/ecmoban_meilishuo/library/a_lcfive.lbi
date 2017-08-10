@@ -1,0 +1,21 @@
+﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    
+      <ul >
+      <!--{foreach from=$cat_id_goods_list_44 item=goods}-->
+        <li><a href="{$goods.url}" target="_blank">
+<img src="{$goods.thumb}"  alt="{$goods.name|escape:html}"   
+width="261" height="287" />
+</a><a href="{$goods.url}" class="qg_bt " target="_blank">抢购&nbsp;&nbsp;<font style="color:#FFF721;">奖金:{$goods.market_price}</font></a>
+          <p>{$goods.name|truncate:28}<!--<img src="images/hb.gif" width="23" height="30" />--></p>
+          <span>已抢<b>{$goods.count}/{$goods.brief}</b>件</span><strong>
+          {$goods.shop_price}
+         
+          
+          </strong>  </li>
+          
+       <!--{/foreach}-->
+        <div style="clear:both;"></div>
+      </ul>
+     
+ 

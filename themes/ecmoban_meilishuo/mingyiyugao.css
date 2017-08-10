@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.slideTxtBox1 .ls_xp li{
+	line-height: 24px;
+	border: 1px solid #c7c8d4;
+	width: 284px;
+	height:430px;
+	margin-top: 15px;
+	float: left;
+	margin-right: 17px;
+	display: inline;
+	color: #f15703;
+	font-family: "微软雅黑";
+	padding-left:5px;
+	padding-right:5px;
+}
+.slideTxtBox1 .ls_xp li:hover{ border:1px solid f15703;
+box-shadow:5px 5px 5px #cccaca; }
+.AreaR .slideTxtBox1 .ls_xp ul li p {
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 10px;
+}
+.AreaR .slideTxtBox1 .ls_xp ul li strong {
+	font-size: 36px;
+}
+.AreaR .slideTxtBox1 .ls_xp ul li .g_bt {
+	float: right;
+	color:#FFF;
+	text-decoration:none;
+	background-color:#999;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+.AreaR .slideTxtBox1 .ls_xp ul li font {
+	text-decoration: none;
+	background-color: #f15703;
+	color: #FFF;
+	text-align:center;
+	line-height:30px;
+	position:absolute;
+	border-radius: 10px;
+	height:30px;
+	font-size:15px;
+	padding-left:5px;
+	padding-right:5px;
+	float:left;
+	z-index:1;
+	margin:-180px 0 0 80px;
+}
+
+.AreaR .slideTxtBox1 .ls_xp ul li s {
+	color: #c4c6cf;
+}
+

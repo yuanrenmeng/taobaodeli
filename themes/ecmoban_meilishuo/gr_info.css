@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.content_gr .main_info .left .tt_kf {
+	background-color: #F15703;
+	height: 30px;
+	color: #FFF;
+	text-align: center;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	line-height: 30px;
+}
+
+.content_gr .main_info .left .tel{
+	font-family:"微软雅黑"; font-size:14px; color:#333;
+	background-image: url(images/tel.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 30px;
+	margin-top:20px;
+}
+.content_gr .main_info .left .qq{
+	font-family:"微软雅黑"; font-size:14px; color:#333;
+	background-image: url(images/qq.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 30px;
+	height:50px;
+	line-height:50px;
+}
+
+.content_gr .main_info .right .form1 table {
+	width: 606px;
+	border: 0;
+	font-family: "微软雅黑";
+}
+.content_gr .main_info .right .form1 table,.content_gr .main_info .right .form1 table tr,.content_gr .main_info .right .form1 table tr td{
+	border: 0;
+	}
+.content_gr .main_info .right .form1 table tr .td1 {
+	width: 200px;
+	height: 50px;
+	text-align: right;
+}
+.content_gr .main_info .right .form1 table tr .td2 {
+	text-align: left;
+}
+#select,#select2{ margin:0 10px 0 10px;}
+#Radio1,#Radio2{margin:0 10px 0 10px; }
+#past,.zhifubao,#phone,#wangwang,#pass,#new_pass,#con_pass{
+	width: 200px;
+	height: 26px;
+	border: 1px solid #BFC9D1;
+	margin-left: 10px;
+}
+.content_gr .main_info .right .form1 table tr .td2 a {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #f15703;
+	padding:5px 15px 5px 15px;
+	margin:0 0 0 55px;
+}
+.content_gr .main_info .right .form1 table tr .td2 a:hover{ background-color:#9c3d09;}
+
+

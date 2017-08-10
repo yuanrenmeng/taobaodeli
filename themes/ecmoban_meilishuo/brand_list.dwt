@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="{$keywords}" />
+<meta name="Description" content="{$description}" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>{$page_title}</title>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+
+<link href="themes/ecmoban_meilishuo/mpg.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+<div class="ad"> <a href="http://taobaodeli.com/goods.php?id=1071" target="_blank"><img src="images/1_05.jpg"></a></div>
+<div class="main_cm">
+  <div class="cmroom">
+    <div class="bd">
+      <ul id="brand">
+       <!-- {foreach from=$brand_list name="brand_list_foreach" item=brand_data} -->
+        <li>
+          <div class="left">
+          <!-- {if $brand_data.brand_logo} -->
+          <img src="data/brandlogo/{$brand_data.brand_logo}" alt="{$brand_data.brand_name|escape:html} ({$brand_data.goods_num})" width="176" height="67" />
+          <!-- {/if} -->
+          
+            <p>
+            <font style="display:none" id="sx{$brand_data.brand_id}"><img src="images/x03.gif"    /></font>
+            <font style="display:none" id="shx{$brand_data.brand_id}"><img src="images/x04.gif"  /></font>
+            <font style="display:none" id="wx{$brand_data.brand_id}"><img src="images/x05.gif"  /></font>
+            </p>
+            <a href="" id="dpurl{$brand_data.brand_id}" target="_blank">进入店铺</a> </div>
+          <div class="right">
+            <h2>{$brand_data.brand_name}</h2>
+           
+            <input type="hidden"  value="{$brand_data.brand_desc}|{$brand_data.brand_id}" />
+            <p id="zy{$brand_data.brand_id}"></p>
+            <p>销量：<b id="xl{$brand_data.brand_id}"></b>件</p>
+            <p>好评率：<em id="hp{$brand_data.brand_id}"></em></p>
+          </div>
+          <div style="clear:both"></div>
+        </li>
+        
+       <!-- {/foreach} -->	
+       <script type="text/javascript">
+	var nav = document.getElementById("brand");//指定id元素
+        var input = nav.getElementsByTagName("input");//获得所有input(数组)
+	
+        for (var i = 0; i < input.length; i++) {
+            var va = input[i].value;
+
+	var Str = va.split('|');
+	
+            var aStr = Str[0].split('-');
+	  document.getElementById('zy'+Str[1]).innerHTML='主营:'+aStr[0];
+      document.getElementById('xl'+Str[1]).innerHTML=aStr[1];
+	  document.getElementById('hp'+Str[1]).innerHTML=aStr[2];
+	document.getElementById('dpurl'+Str[1]).href=aStr[3];
+        }  
+	  
+       </script>
+       
+        <div style="clear:both"></div>
+      </ul>
+      
+    </div>
+  </div>
+ 
+</div>
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+</body>
+</html>

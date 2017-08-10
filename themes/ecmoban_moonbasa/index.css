@@ -1,0 +1,666 @@
+@charset "utf-8";
+/* CSS Document */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select, span {margin:0;padding:0}
+
+
+body{
+	font-family: "宋体", "黑体";
+	font-size: 12px;
+	color: #000;
+	text-align: center;
+	min-width:1560px;/*修改*/
+	
+	
+}
+
+
+img{border:0px;}
+/*头版*/
+.top {
+	
+	height: 25px;
+	width:80%;
+	margin:0 auto;
+}
+/*修改*/
+.top .top_1 {
+	height: 20px;
+	width: 30%;
+	letter-spacing: 10px;
+	float: left;
+	text-align:left;
+	font-size:14px;
+	line-height:20px;
+}
+
+
+.top .top_1 img {
+	margin-right: 8px;
+	margin-left: 8px;
+}
+/*修改*/
+.top .top_2 {
+	height: 20px;
+	width: 30%;
+	color: #ff4400;
+	letter-spacing: 10px;
+	float: right;
+	font-size:14px;
+	line-height:20px;}
+
+/*logo区域*//*修改*/
+.logo_nav {
+	height: 86px;
+	width: 80%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+/*logo*/
+.logo_nav .logo {
+	float: left;
+	height: 71px;
+	width: 154px;
+	
+}
+
+
+
+/*搜索框*//*修改*/
+.logo_nav .search {
+	height: 66px;
+	width: 38%;
+	float: left;
+	padding-top: 20px;
+	margin-left: 10%;
+}
+
+
+
+/*搜索按钮*/
+.logo_nav .search input {
+	width: 100%;
+	height: 30px;
+	border: 2px solid #ff4400;
+	border-radius: 10px;
+	-moz-border-radius:10px;
+	
+}
+/*搜索按钮*//*修改*/
+.logo_nav .search_b {
+	float: left;
+	height: 30px;
+	width: 50px;
+	margin-top: 19px;
+	color:#FFF;
+	font-size:16px;
+	 background-color:#ff4400;
+	 line-height:30px;
+	 margin-left:10px;
+	 border-radius:5px;
+	 font-family: "黑体";
+	 
+}
+/*新的样式，加上*/
+.logo_nav .search_b a{ color:#FFF; text-decoration:none;}
+
+/*正品保证等广告*/
+.logo_nav ul {
+	list-style-type: none;
+	float:right;
+	padding-top: 15px;
+	margin-right:60px;
+	
+}
+.logo_nav ul li {
+	float: left;
+	margin-left: 25px;
+	diplay:table
+}
+/*导航条 修改*/
+.nav {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcad16', endColorstr='#ff4400',GradientType=0 ); /*IE 6 7 8*/ 
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#fcad16), to(#ff4400));/*谷歌*/ 
+	background:-moz-linear-gradient(top,#fcad16,#ff4400);/*火狐*/
+	background: -webkit-linear-gradient(top, #fcad16, #ff4400);   /*Safari5.1 Chrome 10+*/
+	background: -o-linear-gradient(top, #fcad16, #ff4400);  /*Opera 11.10+*/
+	
+	height:51px;
+	text-align:center;
+}
+/*分类*//*修改*/
+.nav .fenlei {
+	background-color: #eb9d07;
+	height: 31px;
+	width: 225px;
+	font-family: "黑体";
+	font-size: 18px;
+	color: #FFF;
+	padding-top: 20px;
+	float: left;
+}
+.nav .nav_1{width:1266px;
+margin:0 auto;}
+
+/*导航字*/
+.nav .nav_t {
+	color: #FFF;
+	font-size: 18px;
+	font-family: "黑体";
+	width: 100px;
+	float: left;
+	height: 51px;
+	line-height: 50px;
+	margin-left: 15px;
+	padding: 0px;
+}
+.nav .nav_t a {
+	color: #FFF;
+	text-decoration: none;
+	padding-top: 16px;
+	padding-right: 10px;
+	padding-bottom: 16px;
+	padding-left: 10px;
+}
+/*修改*/
+.nav .nav_t a:hover{
+	background-color: #eb9d07;
+}
+
+
+
+
+/*分类导航 ，幻灯片 登陆框 等*//*修改*/
+.middle {
+	
+	width: 1266px;
+	margin-right: auto;
+	margin-left: auto;
+	height:400px;
+}
+
+/*分类导航*/
+.middle .fenlei_nav {
+	width: 221px;
+	height:398px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #e88a68;
+	border-bottom-color: #e88a68;
+	border-left-color: #e88a68;
+	float: left;
+	text-align: left;
+}
+
+
+.middle .fenlei_nav div span {
+	float: right;
+	padding-right: 20px;
+}
+.middle .fenlei_nav div a {
+	color: #000;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 25px;
+	display: block,
+	float: left 
+}
+
+.middle .fenlei_nav div a:hover{
+	background-color: #ff4400;
+	color: #FFF;
+}
+
+.middle .fenlei_nav div {
+	font-family: "黑体";
+	font-size: 14px;
+	color: #000;
+	height: 20px;
+	padding-top: 15px;
+}
+/*幻灯片*//*修改*/
+.middle .ad {
+	height:391px;
+	width: 654px;
+	float: left;
+	margin-left: 10px;
+}
+
+/*登陆 ，修改*/
+.middle .login {
+	float: left;
+	width:300px;
+	height:400px;
+	background-color:#e7e2e1;
+	margin-left: 10px;
+}
+.middle .login .login_title {
+	height: 36px;
+	font-family: "黑体";
+	font-size: 18px;
+	color: #ff4b58;
+	line-height: 35px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ff4b58;
+}
+/*修改*/
+.middle .login .name {
+	padding-top: 10px;
+	text-align: left;
+	padding-left: 50px;
+}
+
+.middle .login .name input {
+	height: 20px;
+	width: 150px;
+	border-radius: 5px;
+	border: 1px solid #ff4400;
+	text-align: left;
+}
+
+/*按钮修改*/
+.middle .login .btn {
+	margin-top: 5px;
+	text-align: left;
+	padding-left: 104px;
+}
+/*登录广告*/
+.middle .login .login_ad {
+    height: 112px;
+	width: 300px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+/*客服*/
+.middle .kf{width:130px;  
+  background-color: rgb(252,165,20);  
+filter: alpha(opacity=80);
+	background-color:rgba(252,165,20,0.8);
+	right:15;
+	position:fixed;
+	border-radius:10px;
+	font:bold 15px "宋体";
+	color:#FFF;
+	line-height:30px;
+	_position:absolute;
+	_right:15px;
+	border:1px solid #fc9912;
+	}
+	
+	.middle .kf a{color:#333; text-decoration:none;
+	}
+/*入驻平台
+*/.enters {
+	margin-top: 10px;
+	width: 100%;
+}
+.enters .enter_title {
+	background-image: url(../images/01_78.gif);
+	background-repeat: no-repeat;
+	height: 38px;
+	
+	padding-left: 15px;
+	padding-top:5px;
+	text-align: left;
+	font-family: "黑体";
+	font-size: 12px;
+	color: #FFF;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.enters ul {
+	text-align: left;
+	list-style-type: none;
+	padding-top: 20px;
+}
+.enters ul li {
+	padding-left: 30px;
+	float: left;
+	padding-top: 10px;
+}
+/*广告*/
+.g_pic {
+	width: 900px;
+	padding-top: 15px;
+}	
+/*试用*/
+.try {
+	padding-top: 10px;
+	text-align: left;
+	font-family: "黑体";
+	color: #FFF;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+/*修改*/
+.try .try_title {
+	background-image: url(../images/01_78.gif);
+	background-repeat: no-repeat;
+	height: 38px;
+	padding-top: 5px;
+	padding-left: 20px;
+	font-family: "黑体";
+	font-size: 12px;
+	color: #FFF;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: 20px;
+}
+/*修改*/
+.try .try_title span {
+	color: #000;
+	font-size: 12px;
+	float: right;
+	letter-spacing: 5px;
+	padding-right: 20px;
+	line-height: 25px;
+}
+.try .try_title span a{
+	color: #000;
+	text-decoration: none;
+}
+.try .try_title span a:hover{
+	text-decoration: underline;
+}
+
+.try .try_content {
+	width: 153px;
+	color: #868483;
+	line-height: 20px;
+	font-family: "宋体";
+	float:left;
+	margin-left: 22px;
+     display:inline;
+
+}
+.try .try_content p a {color: #868483;
+text-decoration:none;}
+.try .try_content p a:hover{ text-decoration:underline;
+color:#ff4400;}
+/*试用价格*//*修改*/
+.try .try_content .match {
+	background-color: #f30219;
+	height: 20px;
+	width: 78px;
+	border-radius: 5px;
+	color: #FFF;
+	text-align: center;
+	margin-top: 10px;
+	font-size:16px;
+   font-weight:bold;
+}
+/*修改*/
+.try .try_content span {
+	float: right;
+	color: #000000;
+	padding-right: 20px;
+	margin-top: 10px;
+	font-size:16px ;
+}
+.try .try_content span a{color: #000000; text-decoration:none;}
+
+.try .try_content span a:hover{ text-decoration:underline;}
+
+
+/*每日返利*/
+.fl {
+	width: 900px;
+	padding-top: 30px;
+}
+/*修改*/
+.fl .fl_title {
+	background-image: url(../images/01_78.gif);
+	background-repeat: no-repeat;
+	height: 38px;
+	
+	padding-left: 15px;
+	padding-top:5px;
+	text-align: left;
+	font-family: "黑体";
+	font-size: 12px;
+	color: #FFF;
+	line-height: 30px;
+	font-weight: bold;
+}
+/*修改*/
+.fl .fl_title span {
+	color: #000;
+	font-size: 12px;
+	float: right;
+	letter-spacing: 5px;
+	padding-right: 20px;
+	line-height: 25px;
+}
+.fl .fl_title span a{color: #000; text-decoration:none;}
+.fl .fl_title span a:hover{text-decoration:underline; }
+.fl .fl_content {
+	width: 154px;
+	color: #868483;
+	line-height: 20px;
+	text-align: left;
+	float: left;
+	margin-left: 22px;
+	padding-top: 20px;
+	display:inline;
+}
+.fl .fl_content a {color: #868483; text-decoration:none; }
+.fl .fl_content a:hover{ color:#ff4400; text-decoration:underline;}
+
+/*返利价格*//*修改*/
+.fl .fl_content div {
+	color: #ff0000;
+	padding-left: 15px;
+	font-size:16px;
+	font-weight:bold;
+}
+/*修改*/
+.fl .fl_content div span {
+	float: right;
+	padding-right: 15px;
+}
+/*修改*/
+.box {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 1266px;
+}
+
+
+.box .left {
+	width: 900px;
+	float: left;
+
+}
+
+/*修改*/
+.box .right {
+	float: right;
+	width: 300px;
+	padding-right: 60px;
+	margin-top:10px;
+}
+
+.box .right .gg .gg_title {
+	font-family: "黑体";
+	font-size: 18px;
+	color: #f46734;
+	height: 35px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #f46734;
+	text-align: left;
+	padding-left: 20px;
+	line-height: 30px;
+}
+/*修改*/
+.box .right .gg .gg_content {
+	text-align: left;
+	line-height: 20px;
+	padding-top: 10px;
+	text-indent:2em;
+	
+}
+
+.box .right .xp .xp_title {
+	font-family: "黑体";
+	font-size: 18px;
+	color: #ff4400;
+	height: 30px;
+	padding-top: 15px;
+	padding-left: 20px;
+	border-bottom-width: 2px;
+	border-bottom-style: double;
+	border-bottom-color: #ff4400;
+	text-align: left;
+}
+/*新品推荐*//*修改*/
+.box .right .xp .xp_content {
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	
+	background-color:#e8e7e4;
+}
+/*新品推荐价格*//*修改*/
+.box .right .xp .xp_content div {
+	height: 30px;
+	color: #ff4400;
+	font-size: 16px;
+	font-family: "宋体";
+	line-height: 30px;
+	text-align: left;
+	padding-left:30px;
+	
+}
+/*修改*/
+.box .right .xp .xp_content div span {
+	font-size:12px;
+	float: right;
+	padding-right: 50px;
+	}
+	/*新加的样式*/
+.box .right .xp .xp_content div span strong{ font-size:16px;}
+.lc {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 30px;
+}
+/*修改*/
+.lc .lc_title {
+	font-family: "黑体";
+	font-size: 12px;
+	color: #FFF;
+	background-image: url(../images/lc.png);
+	background-repeat: no-repeat;
+	height: 40px;
+	text-align: left;
+	padding-left: 20px;
+	padding-top:5px;
+	line-height: 30px;
+	width: 1060px;
+	float:left;
+	background-size:cover;
+	display:inline;
+	font-weight:bold;
+	
+}
+/*修改*/
+.lc .lc_title span {
+	color: #000;
+	font-size: 12px;
+	float: right;
+	letter-spacing: 5px;
+	padding-right: 20px;
+	line-height: 25px;
+}
+.lc .lc_title span a{ color:#000; text-decoration:none;}
+.lc .lc_title span a:hover{ text-decoration:underline;}
+.lc .lc_content {
+	width: 155px;
+	float: left;
+	color: #868483;
+	line-height: 20px;
+	text-align: left;
+	margin-left: 60px;
+	padding-top: 20px;
+	display:inline;
+}
+.lc .lc_content p a{ color: #868483; text-decoration:none;}
+.lc .lc_content p a:hover{color:#ff4400; text-decoration:underline;}
+/*楼层价格*//*修改*/
+.lc .lc_content .lc_match {
+	color: #fe0000;
+	text-align: center;
+	font-family: "黑体";
+	font-size: 16px;
+	padding-top: 10px;
+	font-weight:bold;
+}
+/*修改*/
+.lc .lc_content .lc_fl {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding-top: 10px;
+}
+.lc .lc_content .lc_fl a{ color: #000000; text-decoration:none; padding:10px;
+}
+.lc .lc_content .lc_fl a:hover{ background-color:#F00;}
+/*底部*/
+.foot {
+	background-color: #ff4400;
+	height: 160px;
+	margin-top: 50px;
+}
+/*底部信息*/
+.foot ul {
+	list-style-type: none;
+	font-family: "黑体";
+	font-size: 14px;
+	color: #FFF;
+	float: left;
+	margin-left: 150px;
+	line-height: 30px;
+	margin-top: 20px;
+}
+/*底部信息链接*/
+.foot ul a{ text-decoration:none; color:#FFF;}
+.foot ul a:hover{ text-decoration:underline;}
+/*返回顶部*/
+.foot span {
+	font-family: "黑体";
+	font-size: 18px;
+	color: #FFF;
+	float: right;
+	padding-top: 30px;
+	padding-right: 30px;
+}
+/*版权*/
+.Copy {
+	background-color: #ff4400;
+	height: 74px;
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 14px;
+	color: #CCC;
+	line-height: 30px;
+	padding-right: 80px;
+	padding-left: 80px;
+	text-align: left;
+	margin-top: 15px;
+}

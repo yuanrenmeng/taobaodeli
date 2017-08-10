@@ -1,0 +1,35 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<div class="xm-box">
+<h4 class="title"><span>{$goods_cat.name|escape:html}</span> <a class="more" href="{$goods_cat.url}">更多</a></h4>
+<div id="show_hot_area" class="clearfix">
+
+ 
+      <!--{foreach from=$cat_goods item=goods}-->
+      <div class="goodsItem">
+       
+           <a href="{$goods.url}"><img src="{$goods.thumb}" alt="{$goods.name|escape:html}" class="goodsimg" /></a><br />
+           <p class="f1"><a href="{$goods.url}" title="{$goods.name|escape:html}">{$goods.short_name}</a></p>
+           
+           
+ 下单价：<font class="market">{$goods.shop_price}</font> <br/>
+      
+           得利价：<font class="f1">
+           <!-- {if $goods.promote_price neq ""} -->
+          {$goods.promote_price}
+         
+          
+          <!--{/if}-->
+           </font>      
+		   <div class="index_hotbg"><strong>{$goods.count}</strong>/<strong>{$goods.brief}</strong>份</div>
+        </div>
+      <!--{/foreach}-->
+    </div>
+ 
+ 
+</div>
+<div class="blank"></div>
+
+
+
